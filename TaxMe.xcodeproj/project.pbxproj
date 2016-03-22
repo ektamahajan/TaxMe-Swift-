@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FF46951C13C74C00087417 /* Tax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30FF46941C13C74C00087417 /* Tax.jpg */; };
+		B2081CD31C02543600151EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2081CD21C02543600151EB9 /* Foundation.framework */; };
+		B2081CD51C02544400151EB9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2081CD41C02544400151EB9 /* CoreLocation.framework */; };
+		B2081CD71C02544D00151EB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2081CD61C02544D00151EB9 /* CoreGraphics.framework */; };
+		B2081CD91C02545B00151EB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2081CD81C02545B00151EB9 /* UIKit.framework */; };
+		B22495C11C12C03D005DB6C3 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22495C01C12C03D005DB6C3 /* AboutUsViewController.swift */; };
+		B22495C61C12DBDD005DB6C3 /* button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495C31C12DBDD005DB6C3 /* button1.jpg */; };
+		B22495C91C12DE23005DB6C3 /* tax1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495C81C12DE23005DB6C3 /* tax1.jpg */; };
+		B22495CF1C12E036005DB6C3 /* salary_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495CE1C12E036005DB6C3 /* salary_pic.jpg */; };
+		B22495D11C12E03B005DB6C3 /* location_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495D01C12E03B005DB6C3 /* location_pic.jpg */; };
+		B22495D31C12E045005DB6C3 /* feedback_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495D21C12E045005DB6C3 /* feedback_pic.jpg */; };
+		B22495D51C12E04A005DB6C3 /* aboutus_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495D41C12E04A005DB6C3 /* aboutus_pic.jpg */; };
+		B22495D71C12E218005DB6C3 /* otherlocation_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22495D61C12E218005DB6C3 /* otherlocation_pic.jpg */; };
+		B22FC19B1C0BB35300C4C47A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B22FC1921C0BB35300C4C47A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B22FC19C1C0BB35300C4C47A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B22FC1941C0BB35300C4C47A /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B22FC19D1C0BB35300C4C47A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B22FC1961C0BB35300C4C47A /* FMDatabaseQueue.m */; };
+		B22FC19E1C0BB35300C4C47A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B22FC1981C0BB35300C4C47A /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B22FC19F1C0BB35300C4C47A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B22FC19A1C0BB35300C4C47A /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B22FC1A51C0BBEA900C4C47A /* taxRates.db in Resources */ = {isa = PBXBuildFile; fileRef = B22FC1A41C0BBEA900C4C47A /* taxRates.db */; };
+		B268D8411C0FE18600E6B6E1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B268D8401C0FE18600E6B6E1 /* libsqlite3.0.tbd */; };
+		B2721E101BF91B1600857349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2721E0F1BF91B1600857349 /* AppDelegate.swift */; };
+		B2721E151BF91B1600857349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2721E131BF91B1600857349 /* Main.storyboard */; };
+		B2721E181BF91B1600857349 /* Practice_TaxMe_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2721E161BF91B1600857349 /* Practice_TaxMe_1.xcdatamodeld */; };
+		B2721E1A1BF91B1600857349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2721E191BF91B1600857349 /* Assets.xcassets */; };
+		B2721E1D1BF91B1600857349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2721E1B1BF91B1600857349 /* LaunchScreen.storyboard */; };
+		B2721E281BF91B1600857349 /* Practice_TaxMe_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2721E271BF91B1600857349 /* Practice_TaxMe_1Tests.swift */; };
+		B2721E331BF91B1600857349 /* Practice_TaxMe_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2721E321BF91B1600857349 /* Practice_TaxMe_1UITests.swift */; };
+		B2A2ADAC1BF94D160046291E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2ADAB1BF94D160046291E /* HomeTableViewController.swift */; };
+		B2A2ADAE1BF94D480046291E /* CheckTaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2ADAD1BF94D480046291E /* CheckTaxTableViewController.swift */; };
+		B2A2ADB21BF94E420046291E /* SalaryCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2ADB11BF94E420046291E /* SalaryCalculatorViewController.swift */; };
+		B2A2ADB81BF9594A0046291E /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2ADB71BF9594A0046291E /* CurrentLocationViewController.swift */; };
+		B2A2ADBA1BF9595E0046291E /* OtherLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2ADB91BF9595E0046291E /* OtherLocationViewController.swift */; };
+		B2D4B1A01C08FCCA008FF13C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D4B19F1C08FCC9008FF13C /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2721E241BF91B1600857349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2721E041BF91B1600857349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2721E0B1BF91B1600857349;
+			remoteInfo = Practice_TaxMe_1;
+		};
+		B2721E2F1BF91B1600857349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2721E041BF91B1600857349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2721E0B1BF91B1600857349;
+			remoteInfo = Practice_TaxMe_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FF46941C13C74C00087417 /* Tax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tax.jpg; sourceTree = "<group>"; };
+		B2081CD21C02543600151EB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2081CD41C02544400151EB9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B2081CD61C02544D00151EB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2081CD81C02545B00151EB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B22495C01C12C03D005DB6C3 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUsViewController.swift; path = ../AboutUsViewController.swift; sourceTree = "<group>"; };
+		B22495C31C12DBDD005DB6C3 /* button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button1.jpg; sourceTree = "<group>"; };
+		B22495C81C12DE23005DB6C3 /* tax1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tax1.jpg; sourceTree = "<group>"; };
+		B22495CE1C12E036005DB6C3 /* salary_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salary_pic.jpg; sourceTree = "<group>"; };
+		B22495D01C12E03B005DB6C3 /* location_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = location_pic.jpg; sourceTree = "<group>"; };
+		B22495D21C12E045005DB6C3 /* feedback_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feedback_pic.jpg; sourceTree = "<group>"; };
+		B22495D41C12E04A005DB6C3 /* aboutus_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutus_pic.jpg; sourceTree = "<group>"; };
+		B22495D61C12E218005DB6C3 /* otherlocation_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = otherlocation_pic.jpg; sourceTree = "<group>"; };
+		B22FC18F1C0BB35200C4C47A /* Practice_TaxMe_1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice_TaxMe_1-Bridging-Header.h"; sourceTree = "<group>"; };
+		B22FC1901C0BB35300C4C47A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B22FC1911C0BB35300C4C47A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B22FC1921C0BB35300C4C47A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B22FC1931C0BB35300C4C47A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B22FC1941C0BB35300C4C47A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B22FC1951C0BB35300C4C47A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B22FC1961C0BB35300C4C47A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B22FC1971C0BB35300C4C47A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B22FC1981C0BB35300C4C47A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B22FC1991C0BB35300C4C47A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B22FC19A1C0BB35300C4C47A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B22FC1A41C0BBEA900C4C47A /* taxRates.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = taxRates.db; path = Practice_TaxMe_1/taxRates.db; sourceTree = SOURCE_ROOT; };
+		B268D8401C0FE18600E6B6E1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B2721E0C1BF91B1600857349 /* TaxMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2721E0F1BF91B1600857349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2721E141BF91B1600857349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2721E171BF91B1600857349 /* Practice_TaxMe_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practice_TaxMe_1.xcdatamodel; sourceTree = "<group>"; };
+		B2721E191BF91B1600857349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2721E1C1BF91B1600857349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2721E1E1BF91B1600857349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2721E231BF91B1600857349 /* TaxMe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxMe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2721E271BF91B1600857349 /* Practice_TaxMe_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_TaxMe_1Tests.swift; sourceTree = "<group>"; };
+		B2721E291BF91B1600857349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2721E2E1BF91B1600857349 /* TaxMe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxMe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2721E321BF91B1600857349 /* Practice_TaxMe_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_TaxMe_1UITests.swift; sourceTree = "<group>"; };
+		B2721E341BF91B1600857349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A2ADAB1BF94D160046291E /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		B2A2ADAD1BF94D480046291E /* CheckTaxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckTaxTableViewController.swift; sourceTree = "<group>"; };
+		B2A2ADB11BF94E420046291E /* SalaryCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorViewController.swift; sourceTree = "<group>"; };
+		B2A2ADB71BF9594A0046291E /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		B2A2ADB91BF9595E0046291E /* OtherLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherLocationViewController.swift; sourceTree = "<group>"; };
+		B2D4B19F1C08FCC9008FF13C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B2EA7A9A1C113C3B00D567EF /* locationChangeAlert.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = locationChangeAlert.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2721E091BF91B1600857349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B268D8411C0FE18600E6B6E1 /* libsqlite3.0.tbd in Frameworks */,
+				B2D4B1A01C08FCCA008FF13C /* MessageUI.framework in Frameworks */,
+				B2081CD91C02545B00151EB9 /* UIKit.framework in Frameworks */,
+				B2081CD71C02544D00151EB9 /* CoreGraphics.framework in Frameworks */,
+				B2081CD51C02544400151EB9 /* CoreLocation.framework in Frameworks */,
+				B2081CD31C02543600151EB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2721E201BF91B1600857349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2721E2B1BF91B1600857349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2721E031BF91B1600857349 = {
+			isa = PBXGroup;
+			children = (
+				B2721E0E1BF91B1600857349 /* TaxMe */,
+				B2721E261BF91B1600857349 /* Practice_TaxMe_1Tests */,
+				B2721E311BF91B1600857349 /* Practice_TaxMe_1UITests */,
+				B2721E0D1BF91B1600857349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2721E0D1BF91B1600857349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2721E0C1BF91B1600857349 /* TaxMe.app */,
+				B2721E231BF91B1600857349 /* TaxMe.xctest */,
+				B2721E2E1BF91B1600857349 /* TaxMe.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2721E0E1BF91B1600857349 /* TaxMe */ = {
+			isa = PBXGroup;
+			children = (
+				B22FC1A41C0BBEA900C4C47A /* taxRates.db */,
+				B2EA7A9A1C113C3B00D567EF /* locationChangeAlert.db */,
+				B22495C31C12DBDD005DB6C3 /* button1.jpg */,
+				B22495C81C12DE23005DB6C3 /* tax1.jpg */,
+				30FF46941C13C74C00087417 /* Tax.jpg */,
+				B22495CE1C12E036005DB6C3 /* salary_pic.jpg */,
+				B22495D21C12E045005DB6C3 /* feedback_pic.jpg */,
+				B22495D41C12E04A005DB6C3 /* aboutus_pic.jpg */,
+				B22495D61C12E218005DB6C3 /* otherlocation_pic.jpg */,
+				B2721E0F1BF91B1600857349 /* AppDelegate.swift */,
+				B2A2ADAD1BF94D480046291E /* CheckTaxTableViewController.swift */,
+				B2A2ADAB1BF94D160046291E /* HomeTableViewController.swift */,
+				B2721E131BF91B1600857349 /* Main.storyboard */,
+				B22495D01C12E03B005DB6C3 /* location_pic.jpg */,
+				B2A2ADB11BF94E420046291E /* SalaryCalculatorViewController.swift */,
+				B2A2ADB71BF9594A0046291E /* CurrentLocationViewController.swift */,
+				B2A2ADB91BF9595E0046291E /* OtherLocationViewController.swift */,
+				B22495C01C12C03D005DB6C3 /* AboutUsViewController.swift */,
+				B22FC1901C0BB35300C4C47A /* FMDB.h */,
+				B22FC1911C0BB35300C4C47A /* FMDatabase.h */,
+				B22FC1921C0BB35300C4C47A /* FMDatabase.m */,
+				B22FC1931C0BB35300C4C47A /* FMResultSet.h */,
+				B22FC1941C0BB35300C4C47A /* FMResultSet.m */,
+				B22FC1951C0BB35300C4C47A /* FMDatabaseQueue.h */,
+				B22FC1961C0BB35300C4C47A /* FMDatabaseQueue.m */,
+				B22FC1971C0BB35300C4C47A /* FMDatabaseAdditions.h */,
+				B22FC1981C0BB35300C4C47A /* FMDatabaseAdditions.m */,
+				B22FC1991C0BB35300C4C47A /* FMDatabasePool.h */,
+				B22FC19A1C0BB35300C4C47A /* FMDatabasePool.m */,
+				B2721E191BF91B1600857349 /* Assets.xcassets */,
+				B2721E1B1BF91B1600857349 /* LaunchScreen.storyboard */,
+				B2721E1E1BF91B1600857349 /* Info.plist */,
+				B2721E161BF91B1600857349 /* Practice_TaxMe_1.xcdatamodeld */,
+				B268D8401C0FE18600E6B6E1 /* libsqlite3.0.tbd */,
+				B2D4B19F1C08FCC9008FF13C /* MessageUI.framework */,
+				B2081CD81C02545B00151EB9 /* UIKit.framework */,
+				B2081CD61C02544D00151EB9 /* CoreGraphics.framework */,
+				B2081CD41C02544400151EB9 /* CoreLocation.framework */,
+				B2081CD21C02543600151EB9 /* Foundation.framework */,
+				B22FC18F1C0BB35200C4C47A /* Practice_TaxMe_1-Bridging-Header.h */,
+			);
+			name = TaxMe;
+			path = Practice_TaxMe_1;
+			sourceTree = "<group>";
+		};
+		B2721E261BF91B1600857349 /* Practice_TaxMe_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2721E271BF91B1600857349 /* Practice_TaxMe_1Tests.swift */,
+				B2721E291BF91B1600857349 /* Info.plist */,
+			);
+			path = Practice_TaxMe_1Tests;
+			sourceTree = "<group>";
+		};
+		B2721E311BF91B1600857349 /* Practice_TaxMe_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2721E321BF91B1600857349 /* Practice_TaxMe_1UITests.swift */,
+				B2721E341BF91B1600857349 /* Info.plist */,
+			);
+			path = Practice_TaxMe_1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2721E0B1BF91B1600857349 /* TaxMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2721E371BF91B1600857349 /* Build configuration list for PBXNativeTarget "TaxMe" */;
+			buildPhases = (
+				B2721E081BF91B1600857349 /* Sources */,
+				B2721E091BF91B1600857349 /* Frameworks */,
+				B2721E0A1BF91B1600857349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxMe;
+			productName = Practice_TaxMe_1;
+			productReference = B2721E0C1BF91B1600857349 /* TaxMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2721E221BF91B1600857349 /* TaxMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2721E3A1BF91B1600857349 /* Build configuration list for PBXNativeTarget "TaxMeTests" */;
+			buildPhases = (
+				B2721E1F1BF91B1600857349 /* Sources */,
+				B2721E201BF91B1600857349 /* Frameworks */,
+				B2721E211BF91B1600857349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2721E251BF91B1600857349 /* PBXTargetDependency */,
+			);
+			name = TaxMeTests;
+			productName = Practice_TaxMe_1Tests;
+			productReference = B2721E231BF91B1600857349 /* TaxMe.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2721E2D1BF91B1600857349 /* TaxMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2721E3D1BF91B1600857349 /* Build configuration list for PBXNativeTarget "TaxMeUITests" */;
+			buildPhases = (
+				B2721E2A1BF91B1600857349 /* Sources */,
+				B2721E2B1BF91B1600857349 /* Frameworks */,
+				B2721E2C1BF91B1600857349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2721E301BF91B1600857349 /* PBXTargetDependency */,
+			);
+			name = TaxMeUITests;
+			productName = Practice_TaxMe_1UITests;
+			productReference = B2721E2E1BF91B1600857349 /* TaxMe.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2721E041BF91B1600857349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ekta Mahajan & Aman Gupta";
+				TargetAttributes = {
+					B2721E0B1BF91B1600857349 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PF9UHSUS38;
+					};
+					B2721E221BF91B1600857349 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B2721E0B1BF91B1600857349;
+					};
+					B2721E2D1BF91B1600857349 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B2721E0B1BF91B1600857349;
+					};
+				};
+			};
+			buildConfigurationList = B2721E071BF91B1600857349 /* Build configuration list for PBXProject "TaxMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2721E031BF91B1600857349;
+			productRefGroup = B2721E0D1BF91B1600857349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2721E0B1BF91B1600857349 /* TaxMe */,
+				B2721E221BF91B1600857349 /* TaxMeTests */,
+				B2721E2D1BF91B1600857349 /* TaxMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2721E0A1BF91B1600857349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2721E1D1BF91B1600857349 /* LaunchScreen.storyboard in Resources */,
+				B22495D51C12E04A005DB6C3 /* aboutus_pic.jpg in Resources */,
+				B22495C91C12DE23005DB6C3 /* tax1.jpg in Resources */,
+				30FF46951C13C74C00087417 /* Tax.jpg in Resources */,
+				B22495D31C12E045005DB6C3 /* feedback_pic.jpg in Resources */,
+				B22495C61C12DBDD005DB6C3 /* button1.jpg in Resources */,
+				B22495D71C12E218005DB6C3 /* otherlocation_pic.jpg in Resources */,
+				B22495CF1C12E036005DB6C3 /* salary_pic.jpg in Resources */,
+				B2721E1A1BF91B1600857349 /* Assets.xcassets in Resources */,
+				B2721E151BF91B1600857349 /* Main.storyboard in Resources */,
+				B22FC1A51C0BBEA900C4C47A /* taxRates.db in Resources */,
+				B22495D11C12E03B005DB6C3 /* location_pic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2721E211BF91B1600857349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2721E2C1BF91B1600857349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2721E081BF91B1600857349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A2ADAE1BF94D480046291E /* CheckTaxTableViewController.swift in Sources */,
+				B22495C11C12C03D005DB6C3 /* AboutUsViewController.swift in Sources */,
+				B2A2ADB81BF9594A0046291E /* CurrentLocationViewController.swift in Sources */,
+				B22FC19F1C0BB35300C4C47A /* FMDatabasePool.m in Sources */,
+				B2A2ADAC1BF94D160046291E /* HomeTableViewController.swift in Sources */,
+				B22FC19B1C0BB35300C4C47A /* FMDatabase.m in Sources */,
+				B22FC19C1C0BB35300C4C47A /* FMResultSet.m in Sources */,
+				B2721E181BF91B1600857349 /* Practice_TaxMe_1.xcdatamodeld in Sources */,
+				B2A2ADBA1BF9595E0046291E /* OtherLocationViewController.swift in Sources */,
+				B22FC19D1C0BB35300C4C47A /* FMDatabaseQueue.m in Sources */,
+				B2A2ADB21BF94E420046291E /* SalaryCalculatorViewController.swift in Sources */,
+				B2721E101BF91B1600857349 /* AppDelegate.swift in Sources */,
+				B22FC19E1C0BB35300C4C47A /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2721E1F1BF91B1600857349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2721E281BF91B1600857349 /* Practice_TaxMe_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2721E2A1BF91B1600857349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2721E331BF91B1600857349 /* Practice_TaxMe_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2721E251BF91B1600857349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2721E0B1BF91B1600857349 /* TaxMe */;
+			targetProxy = B2721E241BF91B1600857349 /* PBXContainerItemProxy */;
+		};
+		B2721E301BF91B1600857349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2721E0B1BF91B1600857349 /* TaxMe */;
+			targetProxy = B2721E2F1BF91B1600857349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2721E131BF91B1600857349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2721E141BF91B1600857349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2721E1B1BF91B1600857349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2721E1C1BF91B1600857349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2721E351BF91B1600857349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2721E361BF91B1600857349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2721E381BF91B1600857349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Practice_TaxMe_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekta.mahajan.Practice-TaxMe-1";
+				PRODUCT_NAME = TaxMe;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Practice_TaxMe_1/Practice_TaxMe_1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2721E391BF91B1600857349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Practice_TaxMe_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekta.mahajan.Practice-TaxMe-1";
+				PRODUCT_NAME = TaxMe;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Practice_TaxMe_1/Practice_TaxMe_1-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B2721E3B1BF91B1600857349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Practice_TaxMe_1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekta.mahajan.Practice-TaxMe-1Tests";
+				PRODUCT_NAME = TaxMe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxMe.app/TaxMe";
+			};
+			name = Debug;
+		};
+		B2721E3C1BF91B1600857349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Practice_TaxMe_1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekta.mahajan.Practice-TaxMe-1Tests";
+				PRODUCT_NAME = TaxMe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxMe.app/TaxMe";
+			};
+			name = Release;
+		};
+		B2721E3E1BF91B1600857349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Practice_TaxMe_1UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekta.mahajan.Practice-TaxMe-1UITests";
+				PRODUCT_NAME = TaxMe;
+				TEST_TARGET_NAME = Practice_TaxMe_1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B2721E3F1BF91B1600857349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Practice_TaxMe_1UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekta.mahajan.Practice-TaxMe-1UITests";
+				PRODUCT_NAME = TaxMe;
+				TEST_TARGET_NAME = Practice_TaxMe_1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2721E071BF91B1600857349 /* Build configuration list for PBXProject "TaxMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2721E351BF91B1600857349 /* Debug */,
+				B2721E361BF91B1600857349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2721E371BF91B1600857349 /* Build configuration list for PBXNativeTarget "TaxMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2721E381BF91B1600857349 /* Debug */,
+				B2721E391BF91B1600857349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2721E3A1BF91B1600857349 /* Build configuration list for PBXNativeTarget "TaxMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2721E3B1BF91B1600857349 /* Debug */,
+				B2721E3C1BF91B1600857349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2721E3D1BF91B1600857349 /* Build configuration list for PBXNativeTarget "TaxMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2721E3E1BF91B1600857349 /* Debug */,
+				B2721E3F1BF91B1600857349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2721E161BF91B1600857349 /* Practice_TaxMe_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2721E171BF91B1600857349 /* Practice_TaxMe_1.xcdatamodel */,
+			);
+			currentVersion = B2721E171BF91B1600857349 /* Practice_TaxMe_1.xcdatamodel */;
+			path = Practice_TaxMe_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2721E041BF91B1600857349 /* Project object */;
+}
